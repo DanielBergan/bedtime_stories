@@ -1,8 +1,8 @@
 public class Book {
     private String title;
-    private int length;
+    private float length;
 
-    public Book(String title, int length) {
+    public Book(String title, float length) {
 	this.title = title;
 	this.length = length;
     }
@@ -11,7 +11,7 @@ public class Book {
 	return title;
     }
 
-    public int getLength() {
+    public float getLength() {
 	return length;
     }
 }
